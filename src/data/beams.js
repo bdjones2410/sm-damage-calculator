@@ -11,12 +11,12 @@ export const beams = {
   },
   spazer: {
     name: 'Spazer Beam',
-    baseDamage: 30,
+    baseDamage: 40,
     modifier: 1,
   },
   wave: {
     name: 'Wave Beam',
-    baseDamage: 30,
+    baseDamage: 50,
     modifier: 1,
   },
   plasma: {
@@ -47,7 +47,7 @@ export const calculateDamage = (selectedBeams) => {
   } else if (selectedBeams.includes('ice') && selectedBeams.includes('wave')) {
     baseDamage = 60;
   } else if (selectedBeams.includes('wave') && selectedBeams.includes('spazer')) {
-    baseDamage = 60;
+    baseDamage = 70;
   } else if (selectedBeams.includes('ice') && selectedBeams.includes('plasma')) {
     baseDamage = 200;
   } else if (selectedBeams.includes('wave') && selectedBeams.includes('plasma')) {
