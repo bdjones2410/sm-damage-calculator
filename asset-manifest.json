@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/sm-damage-calculator/static/js/main.b6bfdfa9.js",
-    "index.html": "/sm-damage-calculator/index.html",
-    "main.b6bfdfa9.js.map": "/sm-damage-calculator/static/js/main.b6bfdfa9.js.map"
+    "main.js": "/static/js/main.b6bfdfa9.js",
+    "index.html": "/index.html",
+    "main.b6bfdfa9.js.map": "/static/js/main.b6bfdfa9.js.map"
   },
   "entrypoints": [
     "static/js/main.b6bfdfa9.js"
